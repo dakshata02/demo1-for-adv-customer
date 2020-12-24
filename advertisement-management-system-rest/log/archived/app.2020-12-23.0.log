@@ -1,0 +1,334 @@
+2020-12-23 10:59:44,080 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Starting AdvertisementManagementSystemRestApplication using Java 1.8.0_271 on DESKTOP-EQNBBRG with PID 16592 (C:\Users\sairaj\Downloads\advertisement-management-system-rest\target\classes started by Dakshata in C:\Users\sairaj\Downloads\advertisement-management-system-rest)
+2020-12-23 10:59:44,124 DEBUG com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 10:59:44,126 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-23 10:59:44,746 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-23 10:59:44,747 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-23 10:59:47,241 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-23 10:59:47,382 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interfaces.
+2020-12-23 10:59:50,395 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-12-23 10:59:50,428 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-12-23 10:59:50,429 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-12-23 10:59:50,429 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-23 10:59:50,622 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-23 10:59:50,623 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5875 ms
+2020-12-23 10:59:51,875 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-23 10:59:52,058 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.25.Final
+2020-12-23 10:59:52,604 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-23 10:59:53,062 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-12-23 10:59:53,366 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-12-23 10:59:53,459 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-23 10:59:56,808 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-23 10:59:56,824 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-23 10:59:56,857 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-12-23 10:59:58,257 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-23 10:59:58,732 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 10:59:59,623 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-23 10:59:59,831 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-12-23 10:59:59,929 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-12-23 11:00:00,007 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Started AdvertisementManagementSystemRestApplication in 17.131 seconds (JVM running for 18.654)
+2020-12-23 11:00:05,352 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-23 11:00:05,353 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-12-23 11:00:05,357 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Completed initialization in 4 ms
+2020-12-23 11:00:05,880 INFO com.capgemini.advertisement.controller.CustomerController [http-nio-8081-exec-2] customer:MS added to database
+2020-12-23 11:02:32,271 INFO com.capgemini.advertisement.controller.CustomerController [http-nio-8081-exec-4] customer:MS added to database
+2020-12-23 11:04:39,749 INFO com.capgemini.advertisement.controller.CustomerController [http-nio-8081-exec-7] customer: 26 deleted from database
+2020-12-23 13:47:20,917 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m26s743ms105µs352ns).
+2020-12-23 15:56:04,717 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m13s228ms928µs451ns).
+2020-12-23 19:32:50,471 INFO com.capgemini.advertisement.controller.CustomerController [http-nio-8081-exec-10] customer:dak added to database
+2020-12-23 19:49:16,153 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 19:49:16,156 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-23 19:49:16,355 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2020-12-23 19:49:16,560 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2020-12-23 19:49:18,047 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Starting AdvertisementManagementSystemRestApplication using Java 1.8.0_271 on DESKTOP-EQNBBRG with PID 16592 (C:\Users\sairaj\Downloads\advertisement-management-system-rest\target\classes started by Dakshata in C:\Users\sairaj\Downloads\advertisement-management-system-rest)
+2020-12-23 19:49:18,048 DEBUG com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 19:49:18,049 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-23 19:49:20,092 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-23 19:49:20,169 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2020-12-23 19:49:24,400 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-12-23 19:49:24,402 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-12-23 19:49:24,402 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-12-23 19:49:24,403 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-23 19:49:24,494 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-23 19:49:24,494 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6421 ms
+2020-12-23 19:49:26,668 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-23 19:49:26,704 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2020-12-23 19:49:26,910 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2020-12-23 19:49:26,912 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-23 19:49:29,165 ERROR org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+2020-12-23 19:49:29,166 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+2020-12-23 19:49:29,166 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Shutdown initiated...
+2020-12-23 19:49:29,174 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Shutdown completed.
+2020-12-23 19:49:29,176 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2020-12-23 19:49:29,335 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-23 19:49:29,933 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1159)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:913)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication.main(AdvertisementManagementSystemRestApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 22 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:301)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:469)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 26 common frames omitted
+Caused by: org.hibernate.InstantiationException: could not instantiate test object : com.capgemini.advertisement.entity.CustomerMaster
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:43)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:68)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierAttribute(PropertyFactory.java:63)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:140)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:609)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:128)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	... 34 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:40)
+	... 44 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Size cannot be resolved to a type
+
+	at com.capgemini.advertisement.entity.CustomerMaster.<init>(CustomerMaster.java:25)
+	... 49 common frames omitted
+2020-12-23 19:50:13,016 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Starting AdvertisementManagementSystemRestApplication using Java 1.8.0_271 on DESKTOP-EQNBBRG with PID 16592 (C:\Users\sairaj\Downloads\advertisement-management-system-rest\target\classes started by Dakshata in C:\Users\sairaj\Downloads\advertisement-management-system-rest)
+2020-12-23 19:50:13,017 DEBUG com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 19:50:13,017 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-23 19:50:13,707 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-23 19:50:13,723 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2020-12-23 19:50:14,319 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-12-23 19:50:14,322 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-12-23 19:50:14,323 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-23 19:50:14,369 INFO org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-23 19:50:14,369 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1344 ms
+2020-12-23 19:50:14,633 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-23 19:50:14,649 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2020-12-23 19:50:14,770 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2020-12-23 19:50:14,794 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-23 19:50:15,732 ERROR org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+2020-12-23 19:50:15,734 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+2020-12-23 19:50:15,735 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Shutdown initiated...
+2020-12-23 19:50:16,035 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Shutdown completed.
+2020-12-23 19:50:16,036 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2020-12-23 19:50:16,056 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-23 19:50:16,064 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1159)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:913)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication.main(AdvertisementManagementSystemRestApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 22 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:301)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:469)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 26 common frames omitted
+Caused by: org.hibernate.InstantiationException: could not instantiate test object : com.capgemini.advertisement.entity.CustomerMaster
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:43)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:68)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierAttribute(PropertyFactory.java:63)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:140)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:609)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:128)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	... 34 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:40)
+	... 44 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Size cannot be resolved to a type
+
+	at com.capgemini.advertisement.entity.CustomerMaster.<init>(CustomerMaster.java:25)
+	... 49 common frames omitted
+2020-12-23 19:50:34,727 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Starting AdvertisementManagementSystemRestApplication using Java 1.8.0_271 on DESKTOP-EQNBBRG with PID 16592 (C:\Users\sairaj\Downloads\advertisement-management-system-rest\target\classes started by Dakshata in C:\Users\sairaj\Downloads\advertisement-management-system-rest)
+2020-12-23 19:50:34,727 DEBUG com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 19:50:34,732 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-23 19:50:35,761 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-23 19:50:35,794 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2020-12-23 19:50:36,724 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-12-23 19:50:36,775 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-12-23 19:50:36,775 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-23 19:50:36,797 INFO org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-23 19:50:36,797 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2057 ms
+2020-12-23 19:50:36,963 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-23 19:50:36,975 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2020-12-23 19:50:37,054 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2020-12-23 19:50:37,054 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-23 19:50:40,240 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-23 19:50:40,241 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-23 19:50:40,256 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-12-23 19:50:40,977 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-23 19:50:41,260 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 19:50:42,185 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-23 19:50:42,243 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-12-23 19:50:42,271 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Started AdvertisementManagementSystemRestApplication in 7.639 seconds (JVM running for 31860.977)
+2020-12-23 19:50:42,315 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-12-23 19:51:16,436 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-11] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 19:51:16,440 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-23 19:51:16,442 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-4 - Shutdown initiated...
+2020-12-23 19:51:16,453 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-4 - Shutdown completed.
+2020-12-23 19:51:16,960 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Starting AdvertisementManagementSystemRestApplication using Java 1.8.0_271 on DESKTOP-EQNBBRG with PID 16592 (C:\Users\sairaj\Downloads\advertisement-management-system-rest\target\classes started by Dakshata in C:\Users\sairaj\Downloads\advertisement-management-system-rest)
+2020-12-23 19:51:16,961 DEBUG com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 19:51:16,961 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-23 19:51:18,616 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-23 19:51:18,666 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2020-12-23 19:51:19,311 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-12-23 19:51:19,313 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-12-23 19:51:19,313 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-23 19:51:19,336 INFO org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-23 19:51:19,337 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2362 ms
+2020-12-23 19:51:19,458 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-23 19:51:19,465 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2020-12-23 19:51:19,565 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2020-12-23 19:51:19,565 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-23 19:51:21,363 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-23 19:51:21,364 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-23 19:51:21,376 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-12-23 19:51:21,783 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-23 19:51:21,935 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 19:51:22,269 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-23 19:51:22,294 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-12-23 19:51:22,323 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Started AdvertisementManagementSystemRestApplication in 5.461 seconds (JVM running for 31901.029)
+2020-12-23 19:51:22,328 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-12-23 19:51:52,245 INFO org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/] [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-23 19:51:52,246 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-12-23 19:51:52,248 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Completed initialization in 2 ms
+2020-12-23 19:51:52,363 INFO com.capgemini.advertisement.controller.CustomerController [http-nio-8081-exec-2] customer:d added to database
+2020-12-23 19:52:19,485 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-28] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 19:52:19,486 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-28] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-23 19:52:19,487 INFO com.zaxxer.hikari.HikariDataSource [Thread-28] HikariPool-5 - Shutdown initiated...
+2020-12-23 19:52:19,496 INFO com.zaxxer.hikari.HikariDataSource [Thread-28] HikariPool-5 - Shutdown completed.
+2020-12-23 19:52:20,132 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Starting AdvertisementManagementSystemRestApplication using Java 1.8.0_271 on DESKTOP-EQNBBRG with PID 16592 (C:\Users\sairaj\Downloads\advertisement-management-system-rest\target\classes started by Dakshata in C:\Users\sairaj\Downloads\advertisement-management-system-rest)
+2020-12-23 19:52:20,132 DEBUG com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 19:52:20,132 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-23 19:52:20,945 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-23 19:52:20,971 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+2020-12-23 19:52:21,670 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-12-23 19:52:21,671 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-12-23 19:52:21,673 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-23 19:52:21,721 INFO org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-23 19:52:21,721 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1572 ms
+2020-12-23 19:52:21,835 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-23 19:52:21,843 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2020-12-23 19:52:21,893 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2020-12-23 19:52:21,893 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-23 19:52:23,758 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-23 19:52:23,759 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-23 19:52:23,771 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-12-23 19:52:24,004 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-23 19:52:24,082 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 19:52:24,236 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-23 19:52:24,276 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-12-23 19:52:24,301 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Started AdvertisementManagementSystemRestApplication in 4.238 seconds (JVM running for 31963.007)
+2020-12-23 19:52:24,310 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-12-23 19:52:28,160 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-34] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-23 19:52:28,161 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-34] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-23 19:52:28,163 INFO com.zaxxer.hikari.HikariDataSource [Thread-34] HikariPool-6 - Shutdown initiated...
+2020-12-23 19:52:28,178 INFO com.zaxxer.hikari.HikariDataSource [Thread-34] HikariPool-6 - Shutdown completed.
+2020-12-23 19:52:28,729 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Starting AdvertisementManagementSystemRestApplication using Java 1.8.0_271 on DESKTOP-EQNBBRG with PID 16592 (C:\Users\sairaj\Downloads\advertisement-management-system-rest\target\classes started by Dakshata in C:\Users\sairaj\Downloads\advertisement-management-system-rest)
+2020-12-23 19:52:28,729 DEBUG com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 19:52:28,730 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-23 19:52:29,450 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-23 19:52:29,468 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+2020-12-23 19:52:29,914 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-12-23 19:52:29,915 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-12-23 19:52:29,916 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-23 19:52:29,952 INFO org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-23 19:52:29,952 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1216 ms
+2020-12-23 19:52:30,043 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-23 19:52:30,062 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2020-12-23 19:52:30,114 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2020-12-23 19:52:30,115 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-23 19:52:32,265 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-23 19:52:32,266 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-23 19:52:32,285 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-12-23 19:52:32,851 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-23 19:52:32,961 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-23 19:52:33,230 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-23 19:52:33,255 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-12-23 19:52:33,295 INFO com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication [restartedMain] Started AdvertisementManagementSystemRestApplication in 4.621 seconds (JVM running for 31972.001)
+2020-12-23 19:52:33,300 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-12-23 19:52:38,754 INFO org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/] [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-23 19:52:38,756 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-12-23 19:52:38,760 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Completed initialization in 4 ms
+2020-12-23 19:52:38,821 INFO com.capgemini.advertisement.controller.CustomerController [http-nio-8081-exec-2] customer:c added to database
