@@ -105,9 +105,9 @@
                 <version>2.4</version>
                 <configuration>
                     <archive>
-                       <!--  <manifest>
-                            <mainClass>com.capgemini.advertisement.advertisementmanagementsystemrest.AdvertisementManagementSystemRestApplication</mainClass>
-                        </manifest> -->
+                         <manifest>
+                            <mainClass>com.capgemini.advertisement.adv.rest.AdvRestApplication</mainClass>
+                        </manifest> 
                     </archive>
                 </configuration>
             </plugin>
